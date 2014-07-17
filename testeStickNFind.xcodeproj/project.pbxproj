@@ -21,6 +21,12 @@
 		829B96D519782BB00069A9B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829B96B719782BB00069A9B7 /* UIKit.framework */; };
 		829B96DD19782BB00069A9B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 829B96DB19782BB00069A9B7 /* InfoPlist.strings */; };
 		829B96DF19782BB00069A9B7 /* testeStickNFindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 829B96DE19782BB00069A9B7 /* testeStickNFindTests.m */; };
+		829B96E919783BFD0069A9B7 /* snfsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829B96E819783BFD0069A9B7 /* snfsdk.framework */; };
+		829B96EE19784B0A0069A9B7 /* Signal-01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829B96EA19784B0A0069A9B7 /* Signal-01@2x.png */; };
+		829B96EF19784B0A0069A9B7 /* Signal-02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829B96EB19784B0A0069A9B7 /* Signal-02@2x.png */; };
+		829B96F019784B0A0069A9B7 /* Signal-03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829B96EC19784B0A0069A9B7 /* Signal-03@2x.png */; };
+		829B96F119784B0A0069A9B7 /* Signal-04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829B96ED19784B0A0069A9B7 /* Signal-04@2x.png */; };
+		829B96F319785E060069A9B7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829B96F219785E060069A9B7 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		829B96DA19782BB00069A9B7 /* testeStickNFindTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testeStickNFindTests-Info.plist"; sourceTree = "<group>"; };
 		829B96DC19782BB00069A9B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		829B96DE19782BB00069A9B7 /* testeStickNFindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testeStickNFindTests.m; sourceTree = "<group>"; };
+		829B96E819783BFD0069A9B7 /* snfsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = snfsdk.framework; sourceTree = "<group>"; };
+		829B96EA19784B0A0069A9B7 /* Signal-01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signal-01@2x.png"; sourceTree = "<group>"; };
+		829B96EB19784B0A0069A9B7 /* Signal-02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signal-02@2x.png"; sourceTree = "<group>"; };
+		829B96EC19784B0A0069A9B7 /* Signal-03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signal-03@2x.png"; sourceTree = "<group>"; };
+		829B96ED19784B0A0069A9B7 /* Signal-04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signal-04@2x.png"; sourceTree = "<group>"; };
+		829B96F219785E060069A9B7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829B96F319785E060069A9B7 /* MapKit.framework in Frameworks */,
 				829B96B619782BB00069A9B7 /* CoreGraphics.framework in Frameworks */,
+				829B96E919783BFD0069A9B7 /* snfsdk.framework in Frameworks */,
 				829B96B819782BB00069A9B7 /* UIKit.framework in Frameworks */,
 				829B96B419782BB00069A9B7 /* Foundation.framework in Frameworks */,
 			);
@@ -86,6 +100,7 @@
 				829B96D819782BB00069A9B7 /* testeStickNFindTests */,
 				829B96B219782BB00069A9B7 /* Frameworks */,
 				829B96B119782BB00069A9B7 /* Products */,
+				829B96E819783BFD0069A9B7 /* snfsdk.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +116,7 @@
 		829B96B219782BB00069A9B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				829B96F219785E060069A9B7 /* MapKit.framework */,
 				829B96B319782BB00069A9B7 /* Foundation.framework */,
 				829B96B519782BB00069A9B7 /* CoreGraphics.framework */,
 				829B96B719782BB00069A9B7 /* UIKit.framework */,
@@ -117,6 +133,10 @@
 				829B96C519782BB00069A9B7 /* Main.storyboard */,
 				829B96C819782BB00069A9B7 /* ALIViewController.h */,
 				829B96C919782BB00069A9B7 /* ALIViewController.m */,
+				829B96EA19784B0A0069A9B7 /* Signal-01@2x.png */,
+				829B96EB19784B0A0069A9B7 /* Signal-02@2x.png */,
+				829B96EC19784B0A0069A9B7 /* Signal-03@2x.png */,
+				829B96ED19784B0A0069A9B7 /* Signal-04@2x.png */,
 				829B96CB19782BB00069A9B7 /* Images.xcassets */,
 				829B96BA19782BB00069A9B7 /* Supporting Files */,
 			);
@@ -230,8 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				829B96CC19782BB00069A9B7 /* Images.xcassets in Resources */,
+				829B96EE19784B0A0069A9B7 /* Signal-01@2x.png in Resources */,
 				829B96BE19782BB00069A9B7 /* InfoPlist.strings in Resources */,
+				829B96F119784B0A0069A9B7 /* Signal-04@2x.png in Resources */,
 				829B96C719782BB00069A9B7 /* Main.storyboard in Resources */,
+				829B96EF19784B0A0069A9B7 /* Signal-02@2x.png in Resources */,
+				829B96F019784B0A0069A9B7 /* Signal-03@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testeStickNFind/testeStickNFind-Prefix.pch";
 				INFOPLIST_FILE = "testeStickNFind/testeStickNFind-Info.plist";
@@ -390,6 +418,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testeStickNFind/testeStickNFind-Prefix.pch";
 				INFOPLIST_FILE = "testeStickNFind/testeStickNFind-Info.plist";

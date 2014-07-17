@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <snfsdk/snfsdk.h>
+@interface ALIViewController : UIViewController<MKMapViewDelegate,LeBlutrackerDeviceDelegate>
 
-@interface ALIViewController : UIViewController
+- (void) connectOperation;
+@property (weak, nonatomic) IBOutlet UIImageView *imgRadar;
+@property (weak, nonatomic) IBOutlet UILabel *lblDistance;
+@property (weak, nonatomic) IBOutlet UILabel *lblDistance2;
+@property (weak, nonatomic) IBOutlet MKMapView *mapinha;
+@property (nonatomic,strong)LeBlutrackerDevice *pinoblu;
+
 
 @end

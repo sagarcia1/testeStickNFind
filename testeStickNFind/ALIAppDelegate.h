@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <snfsdk/snfsdk.h>
+#import "ALIViewController.h"
 
-@interface ALIAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ALIAppDelegate : UIResponder <UIApplicationDelegate,LeDeviceManagerDelegate,LeSnfDeviceDelegate>
+{
+    LeDeviceManager *leMgr;
+    NSData *snfFirmwareData;        // firmware update data
+    NSString *leFileName;           // file name for persistent storage dictionary
+    NSMutableDictionary *leDict;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) LeDeviceManager *leMgr;
+@property (strong, nonatomic) ALIViewController *tabVC;
 @end
